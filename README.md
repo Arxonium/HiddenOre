@@ -1,7 +1,5 @@
 # HiddenOre
 
-Brought to you by the developers from https://www.reddit.com/r/Devoted and https://www.github.com/DevotedMC -- check out our server at play.devotedmc.com and our website at www.devotedmc.com .
-
 Massively configurable, low-impact plugin to allow post world generation ore balance, via either drops, or ad-hoc generation of ores into the blocks of the world on-demand. It works as a wonderful anti-xray plugin, and as a powerful incentive tool for mining.
 
 ## Notes on Minecraft 1.14
@@ -83,11 +81,6 @@ In mainline as with all our other features, the full suite of configuration opti
 
 I'm probably missing some other details but that's it for now.
 
-### TODO / In progress features:
-
-* Configure which tool to "use" for cave dusting. Default right now is Diamond Pickaxe.
-
-* Better documentation
 
 ### Feature Augment List:
 
@@ -118,3 +111,5 @@ can be specified, each subsection is either the UUID or name of the world with a
 
 **v1.2.7** Experimental feature to allow stripping a world of ores during the generation phase. Fully configurable per-world by name; you can
   set it to replace any set of materials with a single material. Also includes a new anti-bypass method to directly target that "initial return" that can still occur from generators and place-break-place-break cycles
+  
+**v2.0.0** Added support for 1.19.2
